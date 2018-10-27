@@ -1,6 +1,4 @@
-require('mocha');
 const { expect } = require('chai');
-
 const { o2, ro, rw } = require('@/ooxygen');
 
 describe('o2 constructor', () => {
