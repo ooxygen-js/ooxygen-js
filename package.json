@@ -1,0 +1,32 @@
+{
+  "name": "ooxygen",
+  "version": "0.1.0",
+  "description": "A breath of fresh air for OO",
+  "main": "dist/ooxygen.js",
+  "scripts": {
+    "test": "true",
+    "build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ooxygen-js/ooxygen-js.git"
+  },
+  "keywords": [
+    "ooo"
+  ],
+  "author": "Matt Trout",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ooxygen-js/ooxygen-js/issues"
+  },
+  "homepage": "https://github.com/ooxygen-js/ooxygen-js#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-module-resolver": "^3.1.1",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.5",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1"
+  },
+  "dependencies": {}
+}
