@@ -1,0 +1,7 @@
+node_modules
+.sw?
+.*.sw?
+.dependencies
+.nyc_output
+coverage
+dist
