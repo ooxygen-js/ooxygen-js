@@ -2,6 +2,24 @@
 
 A breath of fresh air for OO
 
+## Transpiling
+
+Because of using decorators, which are not actual syntax, you need to compile using babel. Therefore your project needs at minimum babel 6, `transform-decorators-legacy` and `transform-class-properties`
+
+
+```
+{
+  "presets": [
+    "es2015",
+    "stage-2"
+  ],
+  "plugins": [
+    "transform-decorators-legacy",
+    "transform-class-properties"
+  ]
+}
+```
+
 ## Examples
 
 ```javascript
