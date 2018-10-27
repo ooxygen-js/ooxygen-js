@@ -58,4 +58,4 @@ function attr (target, key, descriptor, writable) {
   };
 }
 
-module.exports = o2
+module.exports = { o2, rw, ro, attr };
