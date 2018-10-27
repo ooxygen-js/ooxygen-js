@@ -5,7 +5,7 @@ A breath of fresh air for OO
 ## Examples
 
 ```javascript
-const { o2, ro, rw } = require('@/ooxygen');
+const { o2, ro, rw } = require('ooxygen');
 
 @o2
 class Foo {
